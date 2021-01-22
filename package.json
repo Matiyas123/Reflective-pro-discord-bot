@@ -1,0 +1,30 @@
+{
+  "name": "reflective-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "canvacord": "^5.0.8",
+    "discord.js": "^12.5.1",
+    "discord.js-pagination": "^1.0.3",
+    "ffmpeg-static": "^4.2.7",
+    "figlet": "^1.5.0",
+    "mathjs": "^9.0.0",
+    "node-fetch": "^2.6.1",
+    "weather-js": "^2.0.0",
+    "yt-search": "^2.5.2",
+    "ytdl-core": "^4.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
